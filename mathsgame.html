@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+        
+        <title>Maths Game</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,500' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="mathsgame.css">
+    </head>
+    <body>
+        <h1>It's Math Time!<br /><span id="gameMode"></span></h1>
+        <div id="container">
+            <div id="back">Go Back</div>
+            <div id="score">
+                    Score: <span id="scoreValue">0</span>
+            </div>
+            <div id="correct">Correct</div>
+
+            <div id="wrong">Try Again</div>
+
+            <div id="question"></div>
+            <div id="instruction">
+                Click on the correct answer
+            </div>
+            
+            <div id="choices">
+                <div class="box" id="box1"></div>
+                <div class="box" id="box2"></div>
+                <div class="box" id="box3"></div>
+                <div class="box" id="box4"></div>
+            </div>
+            <div id="startreset">Start Game</div>
+            <div id="timeremaining">
+                Time remaining: <span id="timeremainingvalue"></span> sec
+            </div>
+            <div id="gameover">
+            </div>
+            <div id="games">
+                <div class="symbols" id="symbol1">+</div>
+                <div class="symbols" id="symbol2">-</div>
+                <div class="symbols" id="symbol3">&times</div>
+                <div class="symbols" id="symbol4">&divide</div>
+            </div>
+            <div id="symbolsInstruction">Choose a game by clicking a math symbol in the boxes above.</div>
+            
+        </div>
+    <script src="mathsgame.js"></script>
+    </body>
+</html>
